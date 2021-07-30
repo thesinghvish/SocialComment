@@ -1,0 +1,367 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.main-section{
+    
+    display: flex;   
+    overflow-x:hidden ;
+    
+}
+
+.left{
+
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.big-font{
+
+    font-size:80px;
+    font-weight: bolder;
+
+}
+
+.desc{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.3rem;
+    width: 85%;
+    font-weight: 600;
+
+}
+
+.button2{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+.btn2{
+
+    display: flex;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 1.5rem;
+    background-color: #1717FF;
+    border-color: #1717FF;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 2.8rem;
+    margin-right: 1rem;
+    border:none
+
+}
+
+.videobtn{
+
+    display: flex;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 1.5rem;
+    background-color:white;
+    border:none;
+    color: #0000ff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 2.8rem;
+    margin-left: 0rem;
+    font-weight: 700;
+
+}
+
+.playimg{
+
+    padding: 0.3rem;
+}
+
+.right{
+
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rightimg{
+
+    height: 50rem;
+    width: 40rem;
+
+}
+
+.clientlogo{
+
+    margin: 2.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.amazon{
+    height: 4rem;
+    width: 6rem;
+    opacity: 0.4;
+
+}
+
+.google{
+    height: 4rem;
+    width: 8rem;
+    
+}
+
+.northern{
+    height: 5rem;
+    width: 8rem;
+    
+}
+.skrill{
+    height: 2.5rem;
+    width: 7rem;
+    opacity: 0.4;
+    
+}
+
+
+/* responsive CSS */
+
+@media only screen and (max-width: 1300px) {
+
+    
+    .main-section{
+    
+        display: flex;   
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+    
+    .left{
+    
+        width: 50%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .big-font{
+
+        margin-top: 5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 2.8rem;
+        
+    
+    }
+    
+    .desc{
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 1.3rem;
+        background-color: #1717FF;
+        border-color: #1717FF;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 2.8rem;
+        margin-right: 1rem;
+        border:none
+    
+    }
+    
+    .videobtn{
+    
+        display: flex;
+        height: 3rem;
+        width: 9rem;
+        border-radius: 1.5rem;
+        background-color:white;
+        border:none;
+        color: #0000ff;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 2.8rem;
+        margin-left: 0rem;
+        font-weight: 700;
+    
+    }
+    
+    .playimg{
+    
+        padding: 0.3rem;
+    }
+    
+    .right{
+    
+        width: 50%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .rightimg{
+    
+        height: 40rem;
+        width: 30rem;
+    
+    }
+    
+    .button2{
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    
+    }
+    
+    .btn2{
+    
+        display: flex;
+        height: 3rem;
+        width: 9rem;
+        border-radius: 0.2rem;
+        background-color: #1717FF;
+        border-color: #1717FF;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 3.0rem;
+        margin-right: 0.5rem;
+        border:none;
+        padding: 1rem;
+    
+    }
+
+}
+   
+    @media only screen and (max-width: 730px) {
+    
+
+        .rightimg{
+                height: 30rem;
+                width: 20rem;
+        }
+
+        .big-font{
+
+            margin-top: 6rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            font-size: 2rem;
+        
+        }
+        .desc{
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 1.3rem;
+            width: 85%;
+            font-weight: 600;
+        
+        }
+        
+        .button2{
+        
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 100%;
+        
+        }
+        
+        .btn2{
+        
+            display: flex;
+            height: 3rem;
+            width: 9rem;
+            border-radius: 1.5rem;
+            background-color: #1717FF;
+            border-color: #1717FF;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            margin: 2.8rem;
+            margin-right: 1rem;
+            border:none
+        
+        }
+        
+        .videobtn{
+        
+            display: flex;
+            height: 3rem;
+            width: 9rem;
+            border-radius: 1.5rem;
+            background-color:white;
+            border:none;
+            color: #0000ff;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            margin: 2.8rem;
+            margin-left: 0rem;
+            font-weight: 700;
+        
+        }
+        
+        .playimg{
+        
+            padding: 0.3rem;
+        }
+        
+        .right{
+        
+            width: 50%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        
+       
+        
+        
+
+}
